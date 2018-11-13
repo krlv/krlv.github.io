@@ -1,8 +1,13 @@
-title: krlv.github.io
-description: 
-google_analytics: 
-show_downloads: true
-theme: jekyll-theme-minimal
+# Permalinks
+permalink:           pretty
 
-gems:
+# Setup
+title:               Eugene Kirillov
+tagline:             'Senior Software Engineer'
+description:         'Software developer'
+paginate:            10
+excerpt_separator:   <!--more-->
+
+plugins:
   - jekyll-mentions
+  - jekyll-paginate
