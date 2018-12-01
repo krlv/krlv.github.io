@@ -30,7 +30,9 @@ Todo:
 
 Todo:
 
-1. Script to preload application's classes and deps, smth like `vendor/preload.php`
+1. Explain why preloading of the all php files from `vendor` is a bad idea 
+and why not to use `Ayesh/Composer-Preload`
+2. Explain how to build accurate list of classes to preload for the test application
 
 # Benchmarking PHP Preloading
 
